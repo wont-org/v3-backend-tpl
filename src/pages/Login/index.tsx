@@ -88,13 +88,10 @@ export default defineComponent({
             <div class="login flex f-fd-c f-ai-c f-jc-c">
                 <div class="login_content flex  f-ai-c  f-fd-c">
                     <div class="login_content_top flex f-ai-c">
-                        <img
-                            src="https://cdn.wanwudezhi.com/seller-admin/image/MTU1NTU3NzM1NTkyNTI0NDQzOQ==.png"
-                            alt="玩物得志"
-                        />
-                        <div class="login_title">玩物得志</div>
+                        <img src="/favicon.ico" alt="玩物得志" />
+                        <div class="login_title">vue3后台模板</div>
                     </div>
-                    <p class="title_next">玩物得志云仓系统</p>
+                    <p class="title_next">后台管理模板</p>
                     <div class="login_content_form">
                         <Form ref={formRef} model={state.form} rules={rules}>
                             <FormItem name="phone">

@@ -122,7 +122,7 @@ export const IMG = {
     // 图片兜底图
     default:
         'https://cdn.wanwudezhi.com/static/web-static/image/ce92ce805877c85b39f826adb7f37738_194x195.png',
-    logo: 'https://cdn.wanwudezhi.com/seller-admin/image/MTU1NTU3NzM1NTkyNTI0NDQzOQ==.png',
+    logo: '/favicon.ico',
 }
 /**
  * @example common/enum
