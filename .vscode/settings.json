@@ -1,0 +1,17 @@
+{
+    // "emmet.syntaxProfiles": {
+    //     "vue-html": "html",
+    //     "vue": "html"
+    // },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescriptreact",
+        "typescript",
+        "html"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+        // "source.fixAll.stylelint": true
+    }
+}
