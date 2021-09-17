@@ -1,9 +1,8 @@
 name: Deploy gh-pages
-on:
-  pull_request:
-    branches:
-      - main
-      - dev
+on: [push, pull_request]
+  branches:
+    - main
+    - dev
 
 jobs:
   build-and-deploy:
