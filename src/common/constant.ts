@@ -6,8 +6,8 @@
 export const IMG = {
     // 图片兜底图
     default:
-        'https://cdn.wanwudezhi.com/static/web-static/image/ce92ce805877c85b39f826adb7f37738_194x195.png',
-    logo: '/favicon.ico',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjDif2I2bStpmyAeSzCZXBcuBcCPE4hNSgU3jSQoo-JtQyqcy-gksPGxM1Pe_5eA9mB4g&usqp=CAU',
+    logo: '/v3-backend-tpl/favicon.ico',
 }
 
 export const AUDIO = {
