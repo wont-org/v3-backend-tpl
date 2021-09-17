@@ -11,7 +11,7 @@ import { backendConfig } from './src/config'
 // https://vitejs.dev/config/
 export default defineConfig(({ command }) => {
     const isLocal = command === 'serve'
-    const base = isLocal ? '/' : backendConfig.base
+    const base = isLocal ? './' : backendConfig.base
     const alias = {
         '@': join(__dirname, 'src'),
     }
