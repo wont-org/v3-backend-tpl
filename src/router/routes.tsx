@@ -138,13 +138,4 @@ export const routes: RouteRecordRaw[] = [
             },
         ],
     },
-    {
-        path: '/cargoUpload',
-        name: 'CargoUpload',
-        component: () => import('@/pages/CargoUpload'),
-        meta: {
-            title: '图片上传',
-            hideTab: true,
-        },
-    },
 ]
